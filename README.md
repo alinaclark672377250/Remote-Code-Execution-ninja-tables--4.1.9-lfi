@@ -64,6 +64,10 @@ ID=ubuntu
 
 ### 3. **Read `/etc/passwd`**
 
+
+
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/f7b50438-fc9d-424d-932b-79c438e49aea" />
+
 ####  Raw Request
 
 ```
